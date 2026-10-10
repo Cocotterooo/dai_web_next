@@ -11,7 +11,7 @@
 
 ---
 
-La página web de la Delegación de Alumnado de la EEI (DAI), moderna y rápida en **Next.js 16 (App Router)** con **React 19**, **Tailwind CSS v4**, **TypeScript** e integración completa de **Supabase (SSR & Browser)**.
+La página web de la **Delegación de Alumnado de la EEI (DAI)**, moderna y rápida en **Next.js 16 (App Router)** con **React 19**, **Tailwind CSS v4**, **TypeScript** e integración completa de **Supabase (SSR & Browser)**.
 
 ---
 
@@ -134,5 +134,5 @@ export default async function DashboardPage() {
 ---
 
 <p align="center">
-  Hecho con ❤️ para la <b>DAI</b>
+  Hecho con 💙 para la <b>DAI</b>
 </p>
