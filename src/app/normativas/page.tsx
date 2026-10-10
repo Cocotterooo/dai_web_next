@@ -1,0 +1,10 @@
+export default function NormativasPage() {
+  return (
+    <div className='p-6'>
+      <h1 className='text-2xl font-bold text-slate-100'>Normativas y Reglamentos</h1>
+      <p className='mt-2 text-slate-400'>
+        Documentación oficial y normativas universitarias y de la DAI.
+      </p>
+    </div>
+  );
+}

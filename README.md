@@ -33,22 +33,45 @@ dai_web_next/
 ├── .vscode/                  # Configuración de formateo en VS Code (Single Quotes)
 ├── src/
 │   ├── app/                  # Rutas de la aplicación (App Router)
+│   │   ├── admin/            # Panel de administración (Estadísticas, Eventos, Impresora, Inventario, Logs, Préstamo, Taquillas, Usuarios)
+│   │   │   ├── estadisticas/
+│   │   │   ├── eventos/
+│   │   │   ├── impresora/    # Gestión de servicios de impresión e historial
+│   │   │   ├── inventario/   # Gestión de inventario e historial
+│   │   │   ├── logs/         # Registros de actividad del sistema
+│   │   │   ├── prestamo/     # Gestión de préstamos del material e historial
+│   │   │   ├── taquillas/    # Control e inventario de taquillas
+│   │   │   └── usuarios/     # Gestión de permisos y roles de usuarios
+│   │   ├── auth/             # Autenticación y callbacks (Login, Auth Callback)
+│   │   │   ├── callback/
+│   │   │   └── login/
+│   │   ├── ayuda/            # Preguntas frecuentes y centro de ayuda
+│   │   ├── normativas/       # Documentación y reglamentos universitarios/DAI
+│   │   ├── nosotros/         # Información institucional (Miembros y Sobre Nosotros)
+│   │   │   ├── miembros/
+│   │   │   └── sobre-nosotros/
+│   │   ├── patron/           # Información y gestión de eventos de la festividad del patrón
+│   │   ├── perfil/           # Perfil de usuario y ajustes de cuenta
+│   │   │   └── configuracion/
+│   │   ├── servicios/        # Catálogo de servicios disponibles para los alumnos
 │   │   ├── globals.css       # Configuración de estilos globales Tailwind v4
-│   │   ├── layout.tsx        # Root Layout con fuente Inter
-│   │   └── page.tsx          # Página principal limpia de bienvenida
+│   │   ├── layout.tsx        # Layout raíz con fuente Inter
+│   │   └── page.tsx          # Página principal / Landing
 │   ├── lib/
 │   │   ├── supabase/         # Clientes preconfigurados de Supabase
 │   │   │   ├── client.ts     # Cliente para Client Components (Navegador)
 │   │   │   ├── server.ts     # Cliente para Server Components & Server Actions
 │   │   │   └── middleware.ts # Helper para refresco automático de tokens Auth
 │   │   └── utils.ts          # Helper cn() para composición de clases Tailwind
-│   └── middleware.ts         # Middleware global de Next.js
+│   └── middleware.ts         # Middleware global de autenticación y protección de rutas
 ├── .editorconfig             # Reglas de formato de editor
 ├── .env.example              # Plantilla de variables de entorno para Supabase
 ├── .env.local                # Variables locales (ignoradas en git)
 ├── .prettierrc               # Configuración Prettier (Single Quotes activado)
+├── eslint.config.mjs         # Configuración del linter ESLint
 ├── next.config.ts            # Configuración de Next.js
-└── package.json              # Dependencias y scripts del proyecto
+├── package.json              # Dependencias y scripts del proyecto
+└── tsconfig.json             # Configuración del compilador TypeScript
 ```
 
 ---
