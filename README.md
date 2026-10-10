@@ -57,6 +57,17 @@ dai_web_next/
 │   │   ├── globals.css       # Configuración de estilos globales Tailwind v4
 │   │   ├── layout.tsx        # Layout raíz con fuente Inter
 │   │   └── page.tsx          # Página principal / Landing
+│   ├── components/           # Componentes de la aplicación
+│   │   ├── common/           # Componentes genéricos compartidos
+│   │   ├── ui/               # Componentes atómicos de UI (Botones, Inputs, Modales...)
+│   │   ├── admin/            # Componentes del panel de administración
+│   │   ├── auth/             # Componentes de autenticación
+│   │   ├── ayuda/            # Componentes de la sección de ayuda
+│   │   ├── normativas/       # Componentes de la sección de normativas
+│   │   ├── nosotros/         # Componentes de la sección de nosotros
+│   │   ├── patron/           # Componentes de la sección del patrón
+│   │   ├── perfil/           # Componentes de la sección de perfil
+│   │   └── servicios/        # Componentes de la sección de servicios
 │   ├── lib/
 │   │   ├── supabase/         # Clientes preconfigurados de Supabase
 │   │   │   ├── client.ts     # Cliente para Client Components (Navegador)
