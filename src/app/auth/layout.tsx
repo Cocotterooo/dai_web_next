@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
-  return <div className='min-h-screen bg-slate-950 text-slate-100'>{children}</div>;
+  return <div className='min-h-screen bg-transparent text-slate-100'>{children}</div>;
 }

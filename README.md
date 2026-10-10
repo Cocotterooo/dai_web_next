@@ -55,10 +55,11 @@ dai_web_next/
 │   │   │   └── configuracion/
 │   │   ├── servicios/        # Catálogo de servicios disponibles para los alumnos
 │   │   ├── globals.css       # Configuración de estilos globales Tailwind v4
-│   │   ├── layout.tsx        # Layout raíz con fuente Inter
+│   │   ├── layout.tsx        # Layout raíz con fuente Inter y FondoAzulMistico global
 │   │   └── page.tsx          # Página principal / Landing
 │   ├── components/           # Componentes de la aplicación
-│   │   ├── common/           # Componentes genéricos compartidos
+│   │   ├── common/           # Componentes genéricos compartidos (FondoAzulMistico)
+│   │   │   └── FondoAzulMistico.tsx # Componente de fondo místico con nebulosas y estrellas
 │   │   ├── ui/               # Componentes atómicos de UI (Botones, Inputs, Modales...)
 │   │   ├── admin/            # Componentes del panel de administración
 │   │   ├── auth/             # Componentes de autenticación

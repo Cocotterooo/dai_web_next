@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import FondoAzulMistico from '@/components/common/FondoAzulMistico';
 import './globals.css';
 
 const inter = Inter({
@@ -19,7 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='es' className={inter.variable}>
-      <body className='bg-[#090d16] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200'>
+      <body className='bg-[#020811] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200'>
+        <FondoAzulMistico />
         {children}
       </body>
     </html>

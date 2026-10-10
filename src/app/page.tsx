@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main className='relative flex min-h-screen flex-col items-center justify-center overflow-hidden p-6 md:p-12'>
       {/* Background Subtle Gradient Blobs */}
-      <div className='pointer-events-none absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 transform rounded-full bg-gradient-to-tr from-cyan-500/20 via-blue-600/10 to-emerald-500/20 blur-3xl' />
+      <div className='pointer-events-none absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 transform rounded-full bg-linear-to-tr from-cyan-500/20 via-blue-600/10 to-emerald-500/20 blur-3xl' />
 
       <div className='relative z-10 mx-auto flex max-w-4xl flex-col items-center text-center'>
         {/* Status Pill */}
@@ -34,7 +34,7 @@ export default function Home() {
         {/* Hero Title */}
         <h1 className='text-4xl font-extrabold tracking-tight text-slate-100 sm:text-6xl'>
           Next.js +{' '}
-          <span className='bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent'>
+          <span className='bg-linear-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent'>
             Supabase
           </span>{' '}
           Starter
